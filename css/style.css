@@ -1011,10 +1011,6 @@ a{
 .category-filter-block{
 	padding-bottom: 19px;
 }
-.filter-list{
-	white-space: nowrap;
-	
-}
 .filter-item{
 	display: inline-block;
 	margin-right: 4px;
@@ -1137,7 +1133,7 @@ a{
 	.lower .product-item{
 		margin-bottom: 76px;
 	}
-	.hide-mob{
+	.product-item--hide-mob{
 		display: block;
 	}
 	.show-more-btn{
