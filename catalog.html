@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catalog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/vendors/normalize.css">
+</head>
+<body>
+	<header class="main-header">
+		<div class="wrapper">
+			<a href="start.html"><h1 class="logo">Template</h1></a>
+			<a href="start.html"><h1 class="mobile-logo">TL</h1></a>
+			
+			<div class="header-cart">
+				<img src="img/cart-icon.png" class="cart-icon"><a href="cart.html" class="header-cart-link">Bag <span id="headerCart">&pound;244.00 (1)</span></a>
+			</div>
+			<a href="#" class="sign-up-link">E-mail sign up</a>
+			<nav class="main-navigation">
+				<div class="sandwich-menu" onclick="menuFunc(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<ul class="header-navigation__menu clearfix">
+					<li><a href="catalog.html">Women</a></li>
+					<li><a href="catalog.html">Men</a></li>
+					<li><a href="catalog.html">Handbags</a></li>
+					<li><a href="catalog.html">Accessories</a></li>
+					<li><a href="catalog.html">Sale</a></li>
+					<li><a href="catalog.html">New Arrivals</a></li>
+					<li><a href="catalog.html">Clearance</a></li>
+					<li><a href="catalog.html">Store Locator</a></li>
+				</ul>
+			</nav>
+			<form class="search-block">
+				<input type="search" value="Style name" class="search-field">
+				<input type="submit" class="search-icon-btn">
+			</form>
+		</div>
+	</header>
+
+	<section class="category-filter-block">
+		<div class="wrapper">
+			<ul class="filter-list">
+				<li class="filter-item filter-item-selected">
+					<h2 class="filter-item-title">Fashion</h2>
+					<p class="filter-item-option">Casual style</p>
+					<ul class="filter-values">
+						<li class="filter-value-item">Value 1</li>
+						<li class="filter-value-item">Value 2</li>
+						<li class="filter-value-item">Value 3</li>
+					</ul>
+				</li>
+				<li class="filter-item">
+					<h2 class="filter-item-title">Product type</h2>
+					<ul class="filter-values">
+						<li class="filter-value-item">Value 1</li>
+						<li class="filter-value-item">Value 2</li>
+						<li class="filter-value-item">Value 3</li>
+					</ul>
+				</li>
+				<li class="filter-item">
+					<h2 class="filter-item-title">Color</h2>
+					<ul class="filter-values">
+						<li class="filter-value-item">Value 1</li>
+						<li class="filter-value-item">Value 2</li>
+						<li class="filter-value-item">Value 3</li>
+					</ul>
+				</li>
+				<li class="filter-item filter-item-selected">
+					<h2 class="filter-item-title">Brand</h2>
+					<p class="filter-item-option">Antipodium</p>
+					<ul class="filter-values">
+						<li class="filter-value-item">Value 1</li>
+						<li class="filter-value-item">Value 2</li>
+						<li class="filter-value-item">Value 3</li>
+					</ul>
+				</li>
+				<li class="filter-item filter-item-selected">
+					<h2 class="filter-item-title">Size</h2>
+					<p class="filter-item-option">UK 18</p>
+				</li>
+				<li class="filter-item">
+					<h2 class="filter-item-title">Price range</h2>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<main>
+		<div class="main-arrivals-block catalog-products-block">
+				<div class="wrapper">
+					<div class="upper products">
+						<div class="product-item">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item1.jpg"></a>
+								</div>
+							</div>
+							<p class="product-name">Straight Leg Jeans</p>
+							<p class="product-price">&pound;19.75</p>
+						</div>
+						<div class="product-item">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item2.jpg"></a>
+								</div>
+							</div>
+							<div class="product-description">
+								<p class="product-name">Paul & Joe Sister Jumper with Neon Trims</p>
+								<p class="product-price">&pound;19.75 <span class="product-label">New</span></p>
+							</div>
+						</div>
+						<div class="product-item">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item3.jpg"></a>
+								</div>
+							</div>
+							<p class="product-name">Only Busted Knee Jean</p>
+							<p class="product-price">&pound;19.75</p>
+						</div>
+						<div class="product-item">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item4.jpg"></a>
+								</div>
+							</div>
+							<p class="product-name">Only Skinny Jeans</p>
+							<p class="product-price">&pound;12.75</p>
+						</div>
+					</div>
+
+					<div class="product-offer">
+						<p class="product-offer-description">Last weekend <span class="product-offer-extra">extra 50%</span> off on all reduced boots and shoulder bags</p>
+						<p class="product-offer-details">This offer is valid in-store and online. Prices displayed reflect this additional discount. This offer ends at 11:59 GMT on March 1st 2015</p>
+					</div>
+
+					<div class="lower products">
+						<div class="product-item">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item5.jpg"></a>
+								</div>
+							</div>
+							<p class="product-name">Levi&rsquo;s Jeans for women</p>
+							<p class="product-price"><span class="product-label">More colours</span></p>
+						</div>
+						<div class="product-item">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item6.jpg"></a>
+								</div>
+							</div>
+							<div class="product-description">
+								<p class="product-name">Paul & Joe Sister Jumper with Neon Trims</p>
+								<p class="product-price"><span class="product-label discount-label">&pound;120.00</span><span class="product-label">-25%</span>&pound;90.00</p>
+							</div>
+						</div>
+						<div class="product-item">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item7.jpg"></a>
+								</div>
+							</div>
+							<p class="product-name">Only Busted Knee Jean</p>
+							<p class="product-price">&pound;19.75</p>
+						</div>
+						<div class="product-item">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item8.jpg"></a>
+								</div>
+							</div>
+							<p class="product-name">Only Skinny Jeans</p>
+							<p class="product-price">&pound;12.75</p>
+						</div>
+						<div class="product-item hide-mob">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item9.jpg"></a>
+								</div>
+							</div>
+							<p class="product-name">Only Busted Knee Jean</p>
+							<p class="product-price">&pound;19.75</p>
+						</div>
+						<div class="product-item hide-mob">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item10.jpg"></a>
+								</div>
+							</div>
+							<p class="product-name">Only Skinny Jeans</p>
+							<p class="product-price">&pound;12.75</p>
+						</div>
+						<div class="product-item hide-mob">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item11.jpg"></a>
+								</div>
+							</div>
+							<p class="product-name">Only Busted Knee Jean</p>
+							<p class="product-price">&pound;19.75 <span class="product-label">New</span></p>
+						</div>
+						<div class="product-item hide-mob">
+							<div class="product-photo">
+								<div class="product-hover">
+									<a href="item.html" class="product-view-more">View item</a>
+									<a href="item.html"><img src="img/products/item12.jpg"></a>
+								</div>
+							</div>
+							<p class="product-name">Only Skinny Jeans</p>
+							<p class="product-price">&pound;12.75</p>
+						</div>
+					</div>
+					<div class="main-arrivals-btn show-more-btn"><a href="catalog.html" class="all-arrivals-btn">Show more</a></div>
+				</div>
+			</div>
+	</main>
+
+	<section class="banner-block banner-block-bottom">
+		<div class="wrapper">
+					<div class="banner-mobile">
+						<div class="banner-image mobile-banner-image mobile-banner-image-bottom">
+							<a href="item.html"><img src="img/banners/bottom-adidas.jpg"></a>
+						</div>
+						<div class="banner-description banner-description-bottom">
+							<h2 class="baner-title">Adidas Blue</h2>
+							<span class="banner-label">For men</span>
+						</div>
+					</div>
+					<div class="banner-desktop banner-desktop-bottom">
+						<div class="banner-image desktop-banner-image">
+							<a href="catalog.html"><img src="img/banners/banner-sale.jpg"></a>
+						</div>
+						<div class="banner-description desktop-banner-description desktop-banner-description-bottom">
+							<h2 class="baner-title desktop-banner-title">Sale</h2>
+							<span class="banner-label">-70%</span>
+						</div>
+					</div>
+					<div class="banner-tablet banner-tablet-bottom">
+						<div class="banner-image tablet-banner-image tablet-banner-image-bottom">
+							<a href="item.html"><img src="img/banners/banner-jeans.jpg"></a>
+						</div>
+						<div class="banner-description tablet-banner-description tablet-banner-description-bottom">
+							<h2 class="baner-title tablet-banner-title">Repair Patches</h2>
+							<span class="banner-label">&pound;150.50</span>
+						</div>
+					</div>
+				</div>
+	</section>
+
+
+	<footer class="main-footer">
+		<div class="footer-link-block">
+			<div class="wrapper">
+				<div class="quick-links">
+					<h3 class="footer-title">Quick Links</h3>
+					<ul>
+						<li><a href="#">Store locator</a></li>
+						<li><a href="#">Gift cards</a></li>
+						<li><a href="#">Size guide</a></li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+				</div>
+				<div class="customer-care">
+					<h3 class="footer-title">Customer Care</h3>
+					<ul>
+						<li><a href="#">Customer service</a></li>
+						<li><a href="#">Track my order</a></li>
+						<li><a href="#">Return policy</a></li>
+						<li><a href="#">Shipping & delivery</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="footer-contacts">
+			<div class="wrapper">
+				<div class="footer-contacts-details">
+					<div class="email-contacts">
+						<h3 class="footer-title contact-title">Questions</h3>
+						<img src="img/footer-tw-icon-gr.png" class="twitter-icon"><p class="contact-description">Tweet us <strong>@template</strong></p>
+					</div>
+					<div class="phone-contacts">
+						<h3 class="footer-title contact-title">Order by phone</h3>
+						<p class="contact-description">8-800-409-47-12</p>
+					</div>
+				</div>
+				<div class="footer-contacts-description">
+					<p>We have our own delivery service which operates in 23 major European cities. Delivery time - 3-5 days.</p>
+				</div>
+				<div class="footer-contacts-social">
+					<a href="#"><img src="img/footer-fb-icon.png" class="social-fb"></a>
+					<a href="#"><img src="img/footer-tw-icon.png" class="social-tw"></a>
+				</div>
+			</div>
+		</div>
+		<div class="postfooter-info">
+			<div class="wrapper">
+				<div class="policy-links">
+					<ul>
+						<li><a href="#">Legal notice</a></li>
+						<li><a href="#">Privacy policy</a></li>
+						<li><a href="#">Site map</a></li>
+					</ul>
+				</div>
+				<div class="about-site-info">
+					<div class="site-credits">© 2010-2015, The Template Group inc.</div>
+					<div class="share-block">Share <span class="share-counter">1 437</span></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/catalog.js"></script>
+</body>
+</html>

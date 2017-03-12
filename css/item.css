@@ -1,0 +1,234 @@
+.product-page-item-title{
+	font: bold 12px 'OpenSans', sans-serif;
+	padding: 13px 0 16px;
+}
+.product-images-main{
+	width: 100%;
+	margin-bottom: -4px;
+}
+.product-images-main img{
+	width: 100%;
+}
+.product-item-gallery{
+	width: 33.3%;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+.product-item-gallery img{
+	width: 100%;
+}
+.active::after{
+	background-color: rgba(0, 0, 0, 0.6);
+	content: "";
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.product-images{
+	margin-bottom: 41px;
+}
+.product-details-title{
+	font: bold 20px 'Roboto', sans-serif;
+	text-align: center;
+	margin: 0 0 20px;
+}
+.product-details-price{
+	font: 18px 'Roboto', sans-serif;
+	display: block;
+	text-align: center;
+	margin: 0 0 20px;
+}
+.product-details-description{
+	font: italic 14px 'Times New Roman', sans-serif;
+	line-height: 30px;
+	text-align: center;
+}
+.product-details{
+	margin-bottom: 22px;
+}
+.product-option-title{
+	float: left;
+	font: 12px 'Roboto', sans-serif;
+	width: 60px;
+}
+.item-option-size{
+	margin-bottom: 52px;
+}
+.item-option-color{
+	margin-bottom: 58px;
+}
+.product-order-form input:checked + label{
+	border: 1px solid #e5e5e5;
+}
+.btn{
+	background: transparent;
+	padding: 10px 20px;
+}
+.hide-input{
+	position: absolute;
+	left: -9999px;
+}
+.product-option-btn{
+	font: bold 14px 'OpenSans', sans-serif;
+	margin-right: 10px;
+	width: 80px;
+}
+.product-option-btn:last-child{
+	margin-right: 0;
+}
+.product-order-btn{
+	border: 1px solid #e5e5e5;
+	font: bold 18px 'OpenSans', sans-serif;
+	margin: 0 auto;
+	display: block;
+	padding: 19px 60px;
+}
+.product-order-form{
+	margin-bottom: 98px;
+}
+
+@media(min-width: 768px){
+	.product-page-item-title{
+		font-size: 16px;
+		padding: 21px 0 22px 29px;
+	}
+	.product-images-main{
+		width: 75%;
+		float: left;
+	}
+	.product-images-gallery{
+		float: left;
+		width: 25%;
+	}
+	.product-item-gallery{
+		display: block;
+		float: none;
+		width: 100%;
+		margin-bottom: -4px;
+	}
+	.product-images{
+		margin-bottom: 19px;
+	}
+	.product-order-form{
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.product-option-title{
+		float: none;
+		display: inline-block;
+		width: auto;
+		margin-right: 15px;
+	}
+	.item-option{
+		display: inline-block;
+	}
+	.product-details{
+		margin-bottom: 18px;
+	}
+	.product-option-btn{
+		margin-right: 14px;
+	}
+	.item-option-color{
+		margin-bottom: 98px;
+	}
+	.product-order-btn{
+		padding: 0;
+		width: 258px;
+		height: 70px;
+		margin-left: 36%;
+		font-size: 20px;
+	}
+	.product-characteristics{
+		margin-bottom: 139px;
+	}
+}
+
+@media(min-width: 1024px){
+	.cart-title-area{
+		margin-bottom: 59px;
+	}
+	.product-images{
+		width: 50%;
+		float: left;
+	}
+	.product-images .wrapper{
+		padding-right: 0;
+	}
+	.product-images-main{
+		width: 100%;
+	}
+	.product-images-gallery{
+		width: 100%;
+		float: none;
+	}
+	.product-item-gallery{
+		width: 33.3%;
+		float: left;
+	}
+	.product-details{
+		float: left;
+		width: 45%;
+		padding: 21px 0 26px 47px;
+		margin-bottom: 8px;
+	}
+	.product-details .wrapper{
+		display: flex;
+		flex-direction: column; 
+	}
+	.product-details-price{
+		text-align: left;
+		font-size: 25px; 
+		order: 3;
+	}
+	.product-details .wrapper,
+	.product-characteristics .wrapper{
+		padding-left: 0;
+	}
+	.product-characteristics{
+		width: 45%;
+		float: left;
+		padding-left: 47px;
+		margin-bottom: 224px;
+	}
+	.product-details-title{
+		order: 1;
+		text-align: left;
+		font-size: 26px;
+		margin-bottom: 9px;
+	}
+	.product-details-description{
+		order: 2;
+		font-size: 16px;
+		text-align: left;
+		margin: 0;
+		margin-bottom: 38px;
+	}
+	.product-order-form{
+		text-align: left;
+	}
+	.product-option-title{
+		margin-right: 53px;
+	}
+	.item-option-size{
+		margin-bottom: 42px;
+	}
+	.item-option-color .product-option-title{
+		margin-right: 46px;
+	}
+	.product-option-btn{
+		margin-right: 22px;
+	}
+	.item-option-color{
+		margin-bottom: 59px;
+	}
+	.product-order-btn{
+		margin-left: 18%;
+		font-size: 24px;
+		width: 340px;
+		height: 74px;
+	}
+}

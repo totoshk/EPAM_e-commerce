@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping Bag</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/vendors/normalize.css">
+</head>
+<body>
+	<header class="main-header">
+		<div class="wrapper">
+			<a href="start.html"><h1 class="logo">Template</h1></a>
+			<a href="start.html"><h1 class="mobile-logo">TL</h1></a>
+			
+			<div class="header-cart">
+				<img src="img/cart-icon.png" class="cart-icon"><a href="cart.html" class="header-cart-link">Bag <span id="headerCart">&pound;244.00 (1)</span></a>
+			</div>
+			<a href="#" class="sign-up-link">E-mail sign up</a>
+			<nav class="main-navigation">
+				<div class="sandwich-menu" onclick="menuFunc(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<ul class="header-navigation__menu clearfix">
+					<li><a href="catalog.html">Women</a></li>
+					<li><a href="catalog.html">Men</a></li>
+					<li><a href="catalog.html">Handbags</a></li>
+					<li><a href="catalog.html">Accessories</a></li>
+					<li><a href="catalog.html">Sale</a></li>
+					<li><a href="catalog.html">New Arrivals</a></li>
+					<li><a href="catalog.html">Clearance</a></li>
+					<li><a href="catalog.html">Store Locator</a></li>
+				</ul>
+			</nav>
+			<form class="search-block">
+				<input type="search" value="Style name" class="search-field">
+				<input type="submit" class="search-icon-btn">
+			</form>
+		</div>
+	</header>
+
+
+
+
+	<main class="cart-content">
+		<div class="cart-title-area">
+			<div class="wrapper">
+				<h2 class="cart-title">Shopping bag</h2>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="cart-products">
+			
+				<div class="product-item cart-product-item">
+					<div class="cart-item-left">
+						<div class="product-photo cart-product-photo">
+							<div class="product-hover">
+								<a href="#" class="product-view-more">View item</a>
+								<img src="img/products/item1.jpg">
+							</div>
+						</div>
+						<p class="product-price">&pound;19.75</p>
+					</div>
+					<div class="cart-item-right">
+						<div class="cart-product-property">
+							<h3 class="product-name">Only Skinny Jeans</h3>
+							<ul class="cart-property-list">
+								<li>Color: Black</li>
+								<li>Size: UK 18</li>
+								<li>Quantity: 1</li>
+							</ul>
+						</div>
+						<a href="#" class="cart-item-remove">Remove item</a>
+					</div>
+				</div>
+				<div class="product-item cart-product-item">
+					<div class="cart-item-left">
+						<div class="product-photo cart-product-photo">
+							<div class="product-hover">
+								<a href="#" class="product-view-more">View item</a>
+								<img src="img/products/item2.jpg">
+							</div>
+						</div>
+						<p class="product-price">&pound;319.75</p>
+					</div>
+					<div class="cart-item-right">
+						<div class="cart-product-property">
+							<h3 class="product-name">Paul & Joe Sister Jumper with Neon Trims</h3>
+							<ul class="cart-property-list">
+								<li>Color: Black</li>
+								<li>Size: UK 18</li>
+								<li>Quantity: 1</li>
+							</ul>
+						</div>
+						<a href="#" class="cart-item-remove">Remove item</a>
+					</div>
+				</div>
+				<div class="product-item cart-product-item">
+					<div class="cart-item-left">
+						<div class="product-photo cart-product-photo">
+							<div class="product-hover">
+								<a href="#" class="product-view-more">View item</a>
+								<img src="img/products/item3.jpg">
+							</div>
+						</div>
+						<p class="product-price">&pound;190.75</p>
+					</div>
+					<div class="cart-item-right">
+						<div class="cart-product-property">
+							<h3 class="product-name">Turtle Neck Jumper in Rib</h3>
+							<ul class="cart-property-list">
+								<li>Color: Black</li>
+								<li>Size: UK 18</li>
+								<li>Quantity: 1</li>
+							</ul>
+						</div>
+						<a href="#" class="cart-item-remove">Remove item</a>
+					</div>
+				</div>
+				<div class="product-item cart-product-item">
+					<div class="cart-item-left">
+						<div class="product-photo cart-product-photo">
+							<div class="product-hover">
+								<a href="#" class="product-view-more">View item</a>
+								<img src="img/products/item6.jpg">
+							</div>
+						</div>
+						<p class="product-price">&pound;190.75</p>
+					</div>
+					<div class="cart-item-right">
+						<div class="cart-product-property">
+							<h3 class="product-name">Turtle Neck Jumper in Rib</h3>
+							<ul class="cart-property-list">
+								<li>Color: Black</li>
+								<li>Size: UK 18</li>
+								<li>Quantity: 1</li>
+							</ul>
+						</div>
+						<a href="#" class="cart-item-remove">Remove item</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cart-reminder">
+			<div class="wrapper">
+				<p class="cart-reminder-conditions">You've qualified for Free UK Next Day Delivery on your order. Don't forget to enter the code nexday at checkout
+				</p>
+			</div>
+		</div>
+		<section class="cart-footer">
+			<div class="wrapper">
+				<div class="cart-empty">
+					<a href="#" class="cart-empty-link">Empty bag</a>
+				</div>
+				<div class="cart-buy-block">
+					<a href="#" class="all-arrivals-btn cart-buy-btn">Buy now</a>
+				</div>
+				<div class="cart-total-block">
+					<span>Total cost</span>
+					<div class="cart-total-amount">&pound;1 190.75</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+
+		<footer class="main-footer">
+			<div class="footer-link-block">
+				<div class="wrapper">
+					<div class="quick-links">
+						<h3 class="footer-title">Quick Links</h3>
+						<ul>
+							<li><a href="#">Store locator</a></li>
+							<li><a href="#">Gift cards</a></li>
+							<li><a href="#">Size guide</a></li>
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Support</a></li>
+						</ul>
+					</div>
+					<div class="customer-care">
+						<h3 class="footer-title">Customer Care</h3>
+						<ul>
+							<li><a href="#">Customer service</a></li>
+							<li><a href="#">Track my order</a></li>
+							<li><a href="#">Return policy</a></li>
+							<li><a href="#">Shipping & delivery</a></li>
+							<li><a href="#">Contact us</a></li>
+							<li><a href="#">Careers</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			<div class="footer-contacts">
+				<div class="wrapper">
+					<div class="footer-contacts-details">
+						<div class="email-contacts">
+							<h3 class="footer-title contact-title">Questions</h3>
+							<img src="img/footer-tw-icon-gr.png" class="twitter-icon"><p class="contact-description">Tweet us <strong>@template</strong></p>
+						</div>
+						<div class="phone-contacts">
+							<h3 class="footer-title contact-title">Order by phone</h3>
+							<p class="contact-description">8-800-409-47-12</p>
+						</div>
+					</div>
+					<div class="footer-contacts-description">
+						<p>We have our own delivery service which operates in 23 major European cities. Delivery time - 3-5 days.</p>
+					</div>
+					<div class="footer-contacts-social">
+						<a href="#"><img src="img/footer-fb-icon.png" class="social-fb"></a>
+						<a href="#"><img src="img/footer-tw-icon.png" class="social-tw"></a>
+					</div>
+				</div>
+			</div>
+			<div class="postfooter-info">
+				<div class="wrapper">
+					<div class="policy-links">
+						<ul>
+							<li><a href="#">Legal notice</a></li>
+							<li><a href="#">Privacy policy</a></li>
+							<li><a href="#">Site map</a></li>
+						</ul>
+					</div>
+					<div class="about-site-info">
+						<div class="site-credits">© 2010-2015, The Template Group inc.</div>
+						<div class="share-block">Share <span class="share-counter">1 437</span></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/cart.js"></script>
+</body>
+</html>

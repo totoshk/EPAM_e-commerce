@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/vendors/normalize.css">
+</head>
+<body>
+	<header class="main-header">
+		<div class="wrapper">
+			<a href="start.html"><h1 class="logo">Template</h1></a>
+			<a href="start.html"><h1 class="mobile-logo">TL</h1></a>
+			
+			<div class="header-cart">
+				<img src="img/cart-icon.png" class="cart-icon"><a href="cart.html" class="header-cart-link">Bag <span id="headerCart">&pound;244.00 (1)</span></a>
+			</div>
+			<a href="#" class="sign-up-link">E-mail sign up</a>
+			<nav class="main-navigation">
+				<div class="sandwich-menu" onclick="menuFunc(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<ul class="header-navigation__menu clearfix">
+					<li><a href="catalog.html">Women</a></li>
+					<li><a href="catalog.html">Men</a></li>
+					<li><a href="catalog.html">Handbags</a></li>
+					<li><a href="catalog.html">Accessories</a></li>
+					<li><a href="catalog.html">Sale</a></li>
+					<li><a href="catalog.html">New Arrivals</a></li>
+					<li><a href="catalog.html">Clearance</a></li>
+					<li><a href="catalog.html">Store Locator</a></li>
+				</ul>
+			</nav>
+			<form class="search-block">
+				<input type="search" value="Style name" class="search-field">
+				<input type="submit" class="search-icon-btn">
+			</form>
+		</div>
+	</header>
+
+
+	<main class="product-page-content clearfix">
+		<div class="bread-crumps-block cart-title-area">
+			<div class="wrapper">
+				<h2 class="product-page-item-title"><a href="catalog.html">&lt; Back to catalog</a></h2>
+			</div>
+		</div>
+		<section class="product-images">
+			<div class="wrapper">
+				<div class="product-images-main"><img src="img/item-page/item0.jpg" class="main-photo"></div>
+				<div class="product-images-gallery">
+					<div class="product-item-gallery active"><img src="img/item-page/item0.jpg" class="main-photo"></div>
+					<div class="product-item-gallery"><img src="img/item-page/item1.jpg" class="main-photo"></div>
+					<div class="product-item-gallery"><img src="img/item-page/item2.jpg" class="main-photo"></div>
+				</div>
+			</div>
+		</section>
+		<section class="product-details">
+			<div class="wrapper">
+				<h2 class="product-details-title">Dark classic fit suit</h2>
+				<span class="product-details-price">&pound;180.60</span>
+				<p class="product-details-description">Featuring fine Italian wool, this elegant suit has pick-stitch edging, cascade buttons at the cuffs and a subtle stripe pattern throughout. </p>
+			</div>
+		</section>
+		<section class="product-characteristics">
+			<div class="wrapper">
+				<form action="/" name="order" class="product-order-form">
+					<div class="item-option-size">
+						<h3 class="product-option-title">Size</h3>
+						<div class="item-option">
+							<input id="size-1" type="radio" name="size" value="UK 52" checked class="hide-input">
+							<label for="size-1" class="btn product-option-btn">UK 52</label>
+							<input id="size-2" type="radio" name="size" value="UK 56" class="hide-input">
+							<label for="size-2" class="btn product-option-btn">UK 56</label>
+							<input id="size-3" type="radio" name="size" value="UK 54" class="hide-input">
+							<label for="size-3" class="btn product-option-btn">UK 54</label>
+						</div>
+					</div>
+					<div class="item-option-color">
+						<h3 class="product-option-title">Color</h3>
+						<div class="item-option">
+							<input id="color-1" type="radio" name="color" value="Black" checked class="hide-input">
+							<label for="color-1" class=" btn product-option-btn">Black</label>
+							<input id="color-2" type="radio" name="color" value="Blue" class="hide-input">
+							<label for="color-2" class="btn product-option-btn">Blue</label>
+						</div>
+					</div>
+					<input type="submit" value="Add to bag" class="btn product-order-btn ">
+				</form>
+			</div>
+		</section>
+	</main>
+	<section class="banner-block banner-block-bottom">
+		<div class="wrapper">
+					<div class="banner-mobile">
+						<div class="banner-image mobile-banner-image mobile-banner-image-bottom">
+							<a href=""><img src="img/banners/bottom-adidas.jpg"></a>
+						</div>
+						<div class="banner-description banner-description-bottom">
+							<h2 class="baner-title">Adidas Blue</h2>
+							<span class="banner-label">For men</span>
+						</div>
+					</div>
+					<div class="banner-desktop banner-desktop-bottom">
+						<div class="banner-image desktop-banner-image">
+							<a href="catalog.html"><img src="img/banners/banner-sale.jpg"></a>
+						</div>
+						<div class="banner-description desktop-banner-description desktop-banner-description-bottom">
+							<h2 class="baner-title desktop-banner-title">Sale</h2>
+							<span class="banner-label">-70%</span>
+						</div>
+					</div>
+					<div class="banner-tablet banner-tablet-bottom">
+						<div class="banner-image tablet-banner-image tablet-banner-image-bottom">
+							<a href=""><img src="img/banners/banner-jeans.jpg"></a>
+						</div>
+						<div class="banner-description tablet-banner-description tablet-banner-description-bottom">
+							<h2 class="baner-title tablet-banner-title">Repair Patches</h2>
+							<span class="banner-label">&pound;150.50</span>
+						</div>
+					</div>
+				</div>
+	</section>
+
+
+	<footer class="main-footer">
+		<div class="footer-link-block">
+			<div class="wrapper">
+				<div class="quick-links">
+					<h3 class="footer-title">Quick Links</h3>
+					<ul>
+						<li><a href="#">Store locator</a></li>
+						<li><a href="#">Gift cards</a></li>
+						<li><a href="#">Size guide</a></li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+				</div>
+				<div class="customer-care">
+					<h3 class="footer-title">Customer Care</h3>
+					<ul>
+						<li><a href="#">Customer service</a></li>
+						<li><a href="#">Track my order</a></li>
+						<li><a href="#">Return policy</a></li>
+						<li><a href="#">Shipping & delivery</a></li>
+						<li><a href="#">Contact us</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div class="footer-contacts">
+			<div class="wrapper">
+				<div class="footer-contacts-details">
+					<div class="email-contacts">
+						<h3 class="footer-title contact-title">Questions</h3>
+						<img src="img/footer-tw-icon-gr.png" class="twitter-icon"><p class="contact-description">Tweet us <strong>@template</strong></p>
+					</div>
+					<div class="phone-contacts">
+						<h3 class="footer-title contact-title">Order by phone</h3>
+						<p class="contact-description">8-800-409-47-12</p>
+					</div>
+				</div>
+				<div class="footer-contacts-description">
+					<p>We have our own delivery service which operates in 23 major European cities. Delivery time - 3-5 days.</p>
+				</div>
+				<div class="footer-contacts-social">
+					<a href="#"><img src="img/footer-fb-icon.png" class="social-fb"></a>
+					<a href="#"><img src="img/footer-tw-icon.png" class="social-tw"></a>
+				</div>
+			</div>
+		</div>
+		<div class="postfooter-info">
+			<div class="wrapper">
+				<div class="policy-links">
+					<ul>
+						<li><a href="#">Legal notice</a></li>
+						<li><a href="#">Privacy policy</a></li>
+						<li><a href="#">Site map</a></li>
+					</ul>
+				</div>
+				<div class="about-site-info">
+					<div class="site-credits">© 2010-2015, The Template Group inc.</div>
+					<div class="share-block">Share <span class="share-counter">1 437</span></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/item.js"></script>
+</body>
+</html>
